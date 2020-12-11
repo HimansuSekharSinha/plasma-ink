@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* bootstrap css  */
+.bg-success {
+    background-color: #0098f0 !important;
+}
+.text-success {
+    color: rgb(0, 152, 240) !important;
+}
+/* index.html  */
+.home_header {
+    background: url(../images/slider-1.jfif) no-repeat;
+    height: 100vh;
+}
+.home_header .container {
+    padding-top: 190px !important;
+}
+.home_header .container h1,
+p {
+  width: fit-content;
+}
+/* courses.html */
+@media (max-width: 992px)
+{
+  .b_card{
+    height: 550px;
+  }
+}
+@media(max-width:768px)
+{
+  .t_card,.b_card{
+    height: 500px;
+  }
+}
